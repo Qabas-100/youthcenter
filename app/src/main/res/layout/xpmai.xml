@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_shadow_start_color"
+    tools:context=".pmai">
+    <TextView
+        android:id="@+id/z1"
+        android:layout_width="349dp"
+        android:layout_height="381dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Strategic objectives
+  Building a youth community capable of participating effectively and efficiently to achieve the objectives of Oman’s Vision 2040.Discovering and developing the skills and talents of young people.Providing the necessary counseling for young people.Implementing programs and initiatives that contribute to refining the skills and talents of young people.Providing spaces commensurate with the requirements of young people from various fields and interests.Enhancing youth participation in various projects, initiatives and events.Developing the knowledge and experiences of young people in the fields of creativity and innovation. Strengthening and developing cooperation with regional and international youth organizations. Integration with governmental and private agencies and institutions and civil society organizations in supporting and developing the youth sector in various sectors
+"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/z2"
+        android:layout_width="138dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginRight="151dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="programs :
+
+Programming
+Musical
+draw
+ games
+Journalism
+Photography
+ Computer basics
+designing "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/icm"
+        android:layout_width="248dp"
+        android:layout_height="122dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="519dp"
+        app:srcCompat="@drawable/hskp" />
+</RelativeLayout>

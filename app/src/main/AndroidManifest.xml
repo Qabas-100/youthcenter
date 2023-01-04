@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qyonthcenter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="youth center"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Qyonthcenter">
+        <activity
+            android:name=".qcont"
+            android:exported="false"
+            android:label="connect us"/>
+        <activity
+            android:name=".pmai"
+            android:label="younth center"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SplissE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".qboq"
+            android:exported="false"
+            android:label="Book a program">
+
+        </activity>
+    </application>
+
+</manifest>
